@@ -1,0 +1,362 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		16206C0F216F3BBD00CC7712 /* ZHSignatureView.m in Sources */ = {isa = PBXBuildFile; fileRef = 16206C0E216F3BBD00CC7712 /* ZHSignatureView.m */; };
+		165496191E8F57C20024B72E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 165496181E8F57C20024B72E /* main.m */; };
+		1654961C1E8F57C20024B72E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1654961B1E8F57C20024B72E /* AppDelegate.m */; };
+		1654961F1E8F57C20024B72E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1654961E1E8F57C20024B72E /* ViewController.m */; };
+		165496221E8F57C20024B72E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 165496201E8F57C20024B72E /* Main.storyboard */; };
+		165496241E8F57C20024B72E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 165496231E8F57C20024B72E /* Assets.xcassets */; };
+		165496271E8F57C20024B72E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 165496251E8F57C20024B72E /* LaunchScreen.storyboard */; };
+		1654964C1E8F59190024B72E /* SignViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1654964B1E8F59190024B72E /* SignViewController.m */; };
+		168B7CF6214FA3C6002E9076 /* RootNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 168B7CF5214FA3C6002E9076 /* RootNavigationController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		16206C0D216F3BBD00CC7712 /* ZHSignatureView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHSignatureView.h; sourceTree = "<group>"; };
+		16206C0E216F3BBD00CC7712 /* ZHSignatureView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHSignatureView.m; sourceTree = "<group>"; };
+		165496141E8F57C20024B72E /* ZHSignatureView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZHSignatureView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		165496181E8F57C20024B72E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1654961A1E8F57C20024B72E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1654961B1E8F57C20024B72E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1654961D1E8F57C20024B72E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1654961E1E8F57C20024B72E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		165496211E8F57C20024B72E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		165496231E8F57C20024B72E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		165496261E8F57C20024B72E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		165496281E8F57C20024B72E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1654964A1E8F59180024B72E /* SignViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignViewController.h; sourceTree = "<group>"; };
+		1654964B1E8F59190024B72E /* SignViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignViewController.m; sourceTree = "<group>"; };
+		168B7CF4214FA3C6002E9076 /* RootNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootNavigationController.h; sourceTree = "<group>"; };
+		168B7CF5214FA3C6002E9076 /* RootNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootNavigationController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		165496111E8F57C20024B72E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		16206C0C216F3BBD00CC7712 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				16206C0D216F3BBD00CC7712 /* ZHSignatureView.h */,
+				16206C0E216F3BBD00CC7712 /* ZHSignatureView.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		1654960B1E8F57C20024B72E = {
+			isa = PBXGroup;
+			children = (
+				165496161E8F57C20024B72E /* ZHSignatureView */,
+				165496151E8F57C20024B72E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		165496151E8F57C20024B72E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				165496141E8F57C20024B72E /* ZHSignatureView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		165496161E8F57C20024B72E /* ZHSignatureView */ = {
+			isa = PBXGroup;
+			children = (
+				16206C0C216F3BBD00CC7712 /* Classes */,
+				1654961A1E8F57C20024B72E /* AppDelegate.h */,
+				1654961B1E8F57C20024B72E /* AppDelegate.m */,
+				1654961D1E8F57C20024B72E /* ViewController.h */,
+				1654961E1E8F57C20024B72E /* ViewController.m */,
+				1654964A1E8F59180024B72E /* SignViewController.h */,
+				1654964B1E8F59190024B72E /* SignViewController.m */,
+				168B7CF4214FA3C6002E9076 /* RootNavigationController.h */,
+				168B7CF5214FA3C6002E9076 /* RootNavigationController.m */,
+				165496201E8F57C20024B72E /* Main.storyboard */,
+				165496231E8F57C20024B72E /* Assets.xcassets */,
+				165496251E8F57C20024B72E /* LaunchScreen.storyboard */,
+				165496281E8F57C20024B72E /* Info.plist */,
+				165496171E8F57C20024B72E /* Supporting Files */,
+			);
+			path = ZHSignatureView;
+			sourceTree = "<group>";
+		};
+		165496171E8F57C20024B72E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				165496181E8F57C20024B72E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		165496131E8F57C20024B72E /* ZHSignatureView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 165496411E8F57C20024B72E /* Build configuration list for PBXNativeTarget "ZHSignatureView" */;
+			buildPhases = (
+				165496101E8F57C20024B72E /* Sources */,
+				165496111E8F57C20024B72E /* Frameworks */,
+				165496121E8F57C20024B72E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZHSignatureView;
+			productName = ElectronicSignature;
+			productReference = 165496141E8F57C20024B72E /* ZHSignatureView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1654960C1E8F57C20024B72E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "李志华";
+				TargetAttributes = {
+					165496131E8F57C20024B72E = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = F58QU777B2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 1654960F1E8F57C20024B72E /* Build configuration list for PBXProject "ZHSignatureView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1654960B1E8F57C20024B72E;
+			productRefGroup = 165496151E8F57C20024B72E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				165496131E8F57C20024B72E /* ZHSignatureView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		165496121E8F57C20024B72E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				165496271E8F57C20024B72E /* LaunchScreen.storyboard in Resources */,
+				165496241E8F57C20024B72E /* Assets.xcassets in Resources */,
+				165496221E8F57C20024B72E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		165496101E8F57C20024B72E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1654961F1E8F57C20024B72E /* ViewController.m in Sources */,
+				16206C0F216F3BBD00CC7712 /* ZHSignatureView.m in Sources */,
+				168B7CF6214FA3C6002E9076 /* RootNavigationController.m in Sources */,
+				1654961C1E8F57C20024B72E /* AppDelegate.m in Sources */,
+				165496191E8F57C20024B72E /* main.m in Sources */,
+				1654964C1E8F59190024B72E /* SignViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		165496201E8F57C20024B72E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				165496211E8F57C20024B72E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		165496251E8F57C20024B72E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				165496261E8F57C20024B72E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1654963F1E8F57C20024B72E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		165496401E8F57C20024B72E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		165496421E8F57C20024B72E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = F58QU777B2;
+				INFOPLIST_FILE = "$(SRCROOT)/ZHSignatureView/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ElectronicSignature;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		165496431E8F57C20024B72E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = F58QU777B2;
+				INFOPLIST_FILE = "$(SRCROOT)/ZHSignatureView/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ElectronicSignature;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1654960F1E8F57C20024B72E /* Build configuration list for PBXProject "ZHSignatureView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1654963F1E8F57C20024B72E /* Debug */,
+				165496401E8F57C20024B72E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		165496411E8F57C20024B72E /* Build configuration list for PBXNativeTarget "ZHSignatureView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				165496421E8F57C20024B72E /* Debug */,
+				165496431E8F57C20024B72E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1654960C1E8F57C20024B72E /* Project object */;
+}
